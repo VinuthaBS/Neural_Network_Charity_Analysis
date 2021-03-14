@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# handle .DS_Store
+.DS_Store
+
+# handle practice files
+Practice_Module19_Neural
+ASw_checkpoints
