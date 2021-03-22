@@ -2,9 +2,9 @@
 - Analyse and predict the success of the charity contribution employing Neural Networks using python libraries - sklearn, TensorFlow and Pandas.
 ---
 ## Overview of the Project :
-- Alphabet Soup, is an investor which intends to invest on valuable charitable institutions. 
-- Alphabet Soup wants to take calculated risk by predicting the success of their investments based on past performance data.
-- Data Analysis comes into picture, with a requirement for data modeling so that a trained Neural Network model can predict the future investments. To accomplish this, various steps were carried out. 
+- Alphabet Soup, is an investor which intends to  contribute on valuable charitable institutions. 
+- Alphabet Soup wants to take calculated risk by predicting the success of their charity based on past performance data of all the contributions made to various charitable institutions.
+- Data Analysis comes into picture, with a requirement for data modeling so that a trained Neural Network model can predict the future charity contributions. To accomplish this, various steps were carried out. 
 - Firstly, data preprocessing was done so that the dataset was cleaned, transformed and processed so that it was ready to be fed into the desired model. Processing involved steps like getting rid of columns/rows which were unnecessary, identifying categorical data columns having more than 10 categories to reduce the categories by binning technique and converting the categorical data to numerical data using OnehotEncoder. Spliting the target y and features X, train and test y and X data, scale the train and test X data using Standard Scaler.
 - Secondly defining the neural network model like number of input features, number of hidden layers, number of nodes in each layer, activation functions for each layer. Along with this the number of epochs for the model was defined. After defining and compiling, the model was trained with X_train_scaled and y_train data.
 - After the model was trained, it was evaluated by passing the X_test_scaled data and comparing the resulting y_predicted with y_test data to define the metrics "Loss" & "Accuracy" of our model.
