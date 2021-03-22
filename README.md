@@ -2,8 +2,8 @@
 - Analyse and predict the success of the charity contribution employing Neural Networks using python libraries - sklearn, TensorFlow and Pandas.
 ---
 ## Overview of the Project :
-- Alphabet Soup, is an investor which intends to  contribute on valuable charitable institutions. 
-- Alphabet Soup wants to take calculated risk by predicting the success of their charity based on past performance data of all the contributions made to various charitable institutions.
+- Alphabet Soup, is a non-profit foundation which intends to fund / contribute on noble and global causes for the betterment of humanity  through various reliable charitable institutions. 
+- Alphabet Soup wants to make sure that the foundations charity is utilised effectively by the recepients. Alphabet Soup believes to reach its mission by predicting the success of their charity based on past performance data of all the contributions made to various charitable institutions.
 - Data Analysis comes into picture, with a requirement for data modeling so that a trained Neural Network model can predict the future charity contributions. To accomplish this, various steps were carried out. 
 - Firstly, data preprocessing was done so that the dataset was cleaned, transformed and processed so that it was ready to be fed into the desired model. Processing involved steps like getting rid of columns/rows which were unnecessary, identifying categorical data columns having more than 10 categories to reduce the categories by binning technique and converting the categorical data to numerical data using OnehotEncoder. Spliting the target y and features X, train and test y and X data, scale the train and test X data using Standard Scaler.
 - Secondly defining the neural network model like number of input features, number of hidden layers, number of nodes in each layer, activation functions for each layer. Along with this the number of epochs for the model was defined. After defining and compiling, the model was trained with X_train_scaled and y_train data.
@@ -34,7 +34,7 @@
 ## **Summary**
 - With all the efforts invested in optimizing the model we could achieve only a 1.2% better accuracy. Accuracy improved from 72.6% to 73.8%. This is a very very minor performance improvement by all standards.
 - There are significant observations about the dataset itself. Dataset had only 1 numerical variable and rest all categorical. Also the categorical variables had its largest number belonging to 1 or 2 of its categories only.
-- Above points indicate clearly that there is a need for collecting more data including some numerical data like number of yrs charity is operating, number of employees or team size working towards the project, number of projects run by the charity every year/in total, numerical data quantifying the success of charity and such others.
+- Above points indicate clearly that there is a need for collecting more data including some numerical data like number of yrs charity is operating, number of employees or team size working towards the project, number of projects run by the charity every year / in total, numerical data quantifying the success of charity and such others.
 # Recommendation :
 - Defining and evaluating a neural network is a costly affair with all the resources that needs to be allocated including the processing resources.
 - For the current accuracy % of 73, we can as well look for cheaper options of Logistic regression or Support Vector Machine or Random Forest model. 
